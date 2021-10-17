@@ -1,19 +1,10 @@
-# Atividade 1 - Criar um projeto do zero, com duas páginas
+# Atividade 2 - Criar um novo projeto do zero, consumindo uma api externa e listando resultados.
 
-Criar um novo projeto do zero utilizando CRA (Create React App).
-Implementar duas páginas com react-router.
+## APIs de exemplo (Fique a vontade para utilizar outras)
 
-```
-/calculadora
-/ola
-```
+ - [Kitsu API (animes)](https://kitsu.docs.apiary.io/)
+ - [Star Wars API](https://swapi.dev/)
+ - [Poke API](https://pokeapi.co/)
 
-### Calculadora
-
-Uma página com um formulário contendo dois campos
-O usuário deve ser capaz de preencher esses dois campos e o resultado da soma desses
-campos deve aparecer na Tela.
-
-### Olá
-
-Uma página contendo a mensagem Olá Usuário!
+### Material para consulta
+[Youtube: Como implementar uma lista de animes com filtro de busca em ReactJS](https://youtu.be/k0cZA0NYTyQ)
