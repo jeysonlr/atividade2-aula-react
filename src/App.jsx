@@ -14,10 +14,14 @@ export default function App() {
     }
   }, [text, fetchAnime]);
 
+  function handleTextInputChange(inputValue) {
+    setText(inputValue);
+  }
+
   return (
     <div className="App">
       <h1>Busque aqui seu Anime favorito</h1>
-      <SearchInput value={text} onChange={(search) => setText(search)} />
+      <SearchInput value={text} onChange={handleTextInputChange} />
 
       <br />
       {text && !animes && <span>Carregando os dados...</span>}
